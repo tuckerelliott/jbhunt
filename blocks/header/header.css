@@ -1,6 +1,6 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #f2f4f6;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -54,7 +54,7 @@ header nav p {
 }
 
 header nav a.button:any-link {
-  background-color: #FFF;
+  background-color: #f2f4f6;
 }
 
 /* hamburger */
@@ -227,7 +227,8 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 2em;
     margin: 0;
-    font-size: var(--body-font-size-xs);
+    font-size: 12px;
+    text-transform: uppercase;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
