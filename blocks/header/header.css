@@ -3,7 +3,10 @@ header .nav-wrapper {
   background-color: #f2f4f6;
   width: 100%;
   z-index: 2;
-  position: fixed;
+ /* position: fixed; */
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header nav {
@@ -225,7 +228,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 2em;
+    gap: 5em;
     margin: 0;
     font-size: 12px;
     text-transform: uppercase;

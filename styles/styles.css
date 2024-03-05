@@ -84,7 +84,7 @@ h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: 300;
-  line-height: 1.25;
+  line-height: 1;
   margin-top: 0em;
   margin-bottom: 0em;
   scroll-margin: calc(var(--nav-height) + 1em);
@@ -224,11 +224,11 @@ main .section {
 main .section.light,
 main .section.highlight {
   color: #FFF;
-  background-color: #4852a8;
+  background-color: #005dba;
   margin: auto;
-  width: 80%;
+  max-width: 1200px;
   text-align: center;
-  padding: 10px;
+  padding: 40px;
 }
 
 main .section.hightlight a:any-link {
